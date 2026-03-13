@@ -1,0 +1,79 @@
+
+body {
+	background: linear-gradient(-45deg, #000000, #000000, #000000, #000000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#title {
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+.content {
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+	width: 120px;
+}
+.content.button {
+	background-color: #000000;
+	color: #ffffff;
+	border: #000000 solid 6px;
+	box-shadow: 6px 6px 10px #FFFFFF;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+#games-container {
+	align-content: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	width: 80vw;
+	margin: 20vh auto;
+	height: 70vh;
+}
+#arama {
+	position: relative;
+	width: 800px;
+	height: 60px;
+	margin-top: 10vh;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border: #FFFFFF solid 4px;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-left: 10px;
+}
+#random-buton {
+	font-size: xx-large;
+	position: absolute;
+	background-color: #000000;
+	color: #ffffff;
+	border: #FFFFFF solid 4px;
+	height: 60px;
+	width: 60px;
+	margin-left: 64vw;
+	margin-right: auto;
+	margin-top: 2vh;
+	display: block;
+}
